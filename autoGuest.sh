@@ -1,5 +1,11 @@
 #!/bin/bash
 
+cd ~/Desktop
+
+mkdir AutoGuestDir
+
+cd AutoGuestDir
+
 ##install headers
 sudo apt-get install linux-headers-$(uname -r)
 
